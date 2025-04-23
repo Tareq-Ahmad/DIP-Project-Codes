@@ -26,13 +26,16 @@ The main steps include:
 
 **Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
  
-### Stable Diffusion 3.5 Medium – Model Download
+### Stable Diffusion 3.5 Medium – Model Access
 
-To use the **Stable Diffusion 3.5 Medium** model, download the `.safetensors` file from the [Releases](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases) section of this repository:
+The **Stable Diffusion 3.5 Medium** model (`sd3.5_medium.safetensors`) is too large to host directly on GitHub. You can download it from the official Hugging Face repository:
 
-📥 [Download sd3.5_medium.safetensors](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/sd3.5_medium.safetensors)
+🔗 [Download sd3.5_medium.safetensors from Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/blob/main/sd3.5_medium.safetensors)
 
-Once downloaded, you can load the model using your preferred pipeline, such as Hugging Face's `diffusers`.
+> **Note:** You must have a Hugging Face account and be signed in to download the file.
+
+After downloading, you can use this file with the `diffusers` library or integrate it into your custom pipelines for inference and fine-tuning.
+
 
 
 For this project, I used Stable Diffusion 3.5 (medium) and traine it on the isolated Gooosefoot images. The model should be clonned to a docker container using the official github repo (https://github.com/Stability-AI/sd3.5?tab=readme-ov-file). 
