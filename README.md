@@ -58,7 +58,7 @@ accelerate launch train_dreambooth_lora.py \
   --pretrained_model_name_or_path="path/to/sd3.5_medium.safetensors" \
   --instance_data_dir="path/to/isolated_images" \
   --output_dir="path/to/output" \
-  --instance_prompt="a photo of sks weed" \
+  --instance_prompt="a photo of isolated goosefoot image" \
   --resolution=768 \
   --train_batch_size=1 \
   --gradient_accumulation_steps=4 \
