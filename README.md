@@ -56,7 +56,9 @@ Below is a simple Python script for compositing weed images onto soybean backgro
 📥 [Download training_scenes.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v2.0/training_scenes.py)
 
 # Training YOLOv12
-For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset.
+
+For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset. The complete code from dataset split to training, testing, and model evaluation is documented in the [YOLOv12_training.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/YOLO12_training.py) file available in the release section.
+
 
 ### Installation
 
@@ -68,14 +70,6 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### Validation
-
-```python
-from ultralytics import YOLO
-
-model = YOLO('yolov12{n}.pt')
-model.val(data='coco.yaml', save_json=True)
-```
 ### Training Configuration
 
 | **Hyperparameters**     | **Values**                                      |
