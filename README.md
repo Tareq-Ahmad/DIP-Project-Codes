@@ -101,11 +101,12 @@ model.predict()
 ```
 # Results
 
-Below is the model's performance after it was trained on the train images and validated on the validation images:
+Below is the model's performance after it was trained on the training images and validated on the validation images:
+# Model's Perfromance
 
 ![Model's Performance](images/results.png) 
 
-Validation:
+# Validation
 
 ![Ground Truth (val_batch2_labels)](images/val_batch2_labels.jpg)
 
