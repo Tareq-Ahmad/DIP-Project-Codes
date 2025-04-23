@@ -39,7 +39,7 @@ Small Object Removal to clean noise.
 Green Segmentation in HSV Space to preserve true plant areas.
 
 Output Generation of isolated weed images with visualization.
-📥 [Click here to download the full notebook from the release page](https://github.com/TA-code-ai/DIP-Project-Codes/releases/tag/v1.0)
+📥 [Download image techniques.ipynb](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
 Note: To run the above code you need Python, OpenCv, Numpy and Matplotlib librarries installed. 
 # Preprocessing Techinques on the Isolated weeds
 Once the weeds are isolated using ExG and Otsu's thresholding methods, you can centralize the weeds on images using the following code.  
