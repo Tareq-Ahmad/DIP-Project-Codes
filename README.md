@@ -111,3 +111,9 @@ Below is the model's performance after it was trained on the training images and
 ![Ground Truth (val_batch2_labels)](images/val_batch2_labels.jpg)
 
 ![Model Prediction (val_batch2_pred)](images/val_batch2_pred.jpg)
+
+# Model's Performance on Test Images
+![Composed Image 1147](images/composed_1147.jpg)
+
+![Composed Image 1377](images/composed_1377.jpg)
+
