@@ -46,6 +46,32 @@ To install the required dependencies for Stable Diffusion 3.5 Medium, use the fo
 pip install -r requirements_SD3.5.txt
 
 
+
+```
+
+## Train (DreamBooth Fine-Tuning)
+
+The model was fine-tuned using DreamBooth on **Stable Diffusion 3.5 Medium** with 332 isolated weed images. The training was done on one NVIDIA RTX A6000 GPU (49 GB) for approximately 6.5 hours using the following command:
+
+```bash
+accelerate launch train_dreambooth_lora.py \
+  --pretrained_model_name_or_path="path/to/sd3.5_medium.safetensors" \
+  --instance_data_dir="path/to/isolated_images" \
+  --output_dir="path/to/output" \
+  --instance_prompt="a photo of sks weed" \
+  --resolution=768 \
+  --train_batch_size=1 \
+  --gradient_accumulation_steps=4 \
+  --learning_rate=5e-6 \
+  --lr_scheduler="constant" \
+  --lr_warmup_steps=0 \
+  --max_train_steps=10000 \
+  --mixed_precision="bf16" \
+  --checkpointing_steps=500 \
+  --validation_prompt="a photo of sks weed in the field" \
+  --validation_epochs=200 \
+  --seed=42 \
+  --report_to="tensorboard"
 ```
 
 ### Training Scenes
