@@ -26,30 +26,34 @@ The main steps include:
 
 **Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
  
-### Stable Diffusion 3.5 Medium – Model Access
+## Stable Diffusion 3.5 Medium – Model Access
 
 The **Stable Diffusion 3.5 Medium** model (`sd3.5_medium.safetensors`) is too large to host directly on GitHub. You can download it from the official Hugging Face repository:
 
 🔗 [Download sd3.5_medium.safetensors from Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/blob/main/sd3.5_medium.safetensors)
 
-> **Note:** You must have a Hugging Face account and be signed in to download the file.
+> **Note:** You must have a Hugging Face account and be signed in to access and download the file.
 
-After downloading, you can use this file with the `diffusers` library or integrate it into your custom pipelines for inference and fine-tuning.
+After downloading, place the file in your working directory and use it with the `diffusers` library or your own custom pipeline for inference and fine-tuning.
 
+---
 
+## Installation
 
-For this project, I used Stable Diffusion 3.5 (medium) and traine it on the isolated Gooosefoot images. The model should be clonned to a docker container using the official github repo (https://github.com/Stability-AI/sd3.5?tab=readme-ov-file). 
-# LeafOnlySAM model
-This model was employed on soybean plants for generating segmentation masks for the soybean leaves. To be able to use LeafOnlySAM model you have first install SAM model (https://github.com/facebookresearch/segment-anything). Below is the code for LeafOnlySAM:
-📥 [Click here to download the notebook](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v1.0/Code.for.Using.LeafOnlySAM.ipynb)
+To install the required dependencies, use the provided `requirements.txt`:
 
-# Training Scenes
+```bash
+pip install -r requirements.txt
+
+```
+
+### Training Scenes
 
 Below is a simple Python script for compositing weed images onto soybean background images.
 
 📥 [Download training_scenes.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v2.0/training_scenes.py)
 
-# Training YOLOv12
+### Training YOLOv12
 
 For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset. The complete code from dataset split to training, testing, and model evaluation is documented in the [YOLO12_training.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/YOLO12_training.py) file available in the release section.
 
