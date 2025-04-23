@@ -105,7 +105,8 @@ Below is the model's performance after it was trained on the train images and va
 
 ![Model's Performance](images/results.png) 
 
+Validation:
+
 ![Ground Truth (val_batch2_labels)](images/val_batch2_labels.jpg)
 
 ![Model Prediction (val_batch2_pred)](images/val_batch2_pred.jpg)
-ges:
