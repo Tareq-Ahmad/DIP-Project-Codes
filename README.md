@@ -38,12 +38,13 @@ After downloading, place the file in your working directory and use it with the 
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-To install the required dependencies, use the provided `requirements.txt`:
+To install the required dependencies for Stable Diffusion 3.5 Medium, use the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_SD3.5.txt
+
 
 ```
 
