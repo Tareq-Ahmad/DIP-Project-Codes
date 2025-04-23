@@ -25,10 +25,16 @@ The main steps include:
 📥 [Download `image techniques.ipynb`](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
 
 **Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
+ 
+### Stable Diffusion 3.5 Medium – Model Download
 
-# Preprocessing Techinques on the Isolated weeds
-Once the weeds are isolated using ExG and Otsu's thresholding methods, you can centralize the weeds on images using the following code.  
-# Stable Diffusion 3.5 Model
+To use the **Stable Diffusion 3.5 Medium** model, download the `.safetensors` file from the [Releases](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases) section of this repository:
+
+📥 [Download sd3.5_medium.safetensors](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/sd3.5_medium.safetensors)
+
+Once downloaded, you can load the model using your preferred pipeline, such as Hugging Face's `diffusers`.
+
+
 For this project, I used Stable Diffusion 3.5 (medium) and traine it on the isolated Gooosefoot images. The model should be clonned to a docker container using the official github repo (https://github.com/Stability-AI/sd3.5?tab=readme-ov-file). 
 # LeafOnlySAM model
 This model was employed on soybean plants for generating segmentation masks for the soybean leaves. To be able to use LeafOnlySAM model you have first install SAM model (https://github.com/facebookresearch/segment-anything). Below is the code for LeafOnlySAM:
