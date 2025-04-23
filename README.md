@@ -65,16 +65,17 @@ wget https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash
 conda create -n yolov12 python=3.11
 conda activate yolov12
 pip install -r requirements.txt
-pip install -e .```
+pip install -e .
+```
 
 ### Validation
 
-```bash
+```python
 from ultralytics import YOLO
 
 model = YOLO('yolov12{n/s/m/l/x}.pt')
 model.val(data='coco.yaml', save_json=True)
-
+```
 ### Training
 
 ```python
@@ -101,7 +102,7 @@ metrics = model.val()
 # Perform object detection on an image
 results = model("path/to/image.jpg")
 results[0].show()
-
+```
 ### Prediction
 
 ```python
@@ -109,5 +110,5 @@ from ultralytics import YOLO
 
 model = YOLO('yolov12{n/s/m/l/x}.pt')
 model.predict()
-
+```
 # Results
