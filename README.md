@@ -57,7 +57,8 @@ Below is a simple Python script for compositing weed images onto soybean backgro
 
 # Training YOLOv12
 
-For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset. The complete code from dataset split to training, testing, and model evaluation is documented in the [YOLOv12_training.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/YOLO12_training.py) file available in the release section.
+For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset. The complete code from dataset split to training, testing, and model evaluation is documented in the [YOLO12_training.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/YOLO12_training.py) file available in the release section.
+
 
 
 ### Installation
