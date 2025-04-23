@@ -22,7 +22,7 @@ The main steps include:
 - **Green Segmentation in HSV Color Space** to preserve true plant areas.
 - **Output Generation** with visualizations of the isolated weed images.
 
-📥 [Download `image techniques.ipynb`](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
+ [Download `image techniques.ipynb`](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
 
 **Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
  
@@ -30,7 +30,7 @@ The main steps include:
 
 The **Stable Diffusion 3.5 Medium** model (`sd3.5_medium.safetensors`) is too large to host directly on GitHub. You can download it from the official Hugging Face repository:
 
-🔗 [Download sd3.5_medium.safetensors from Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/blob/main/sd3.5_medium.safetensors)
+ [Download sd3.5_medium.safetensors from Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium/blob/main/sd3.5_medium.safetensors)
 
 > **Note:** You must have a Hugging Face account and be signed in to access and download the file.
 
@@ -38,7 +38,7 @@ After downloading, place the file in your working directory and use it with the 
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 To install the required dependencies for Stable Diffusion 3.5 Medium, use the following command:
 
@@ -52,7 +52,7 @@ pip install -r requirements_SD3.5.txt
 
 Below is a simple Python script for compositing weed images onto soybean background images.
 
-📥 [Download training_scenes.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v2.0/training_scenes.py)
+ [Download training_scenes.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v2.0/training_scenes.py)
 
 ### Training YOLOv12
 
