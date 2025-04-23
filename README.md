@@ -11,19 +11,21 @@ For this project 332 images of Goosefoot (chenopodium Album) weed were used from
 ![Goosefoot Weed](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/goosefoot1.jpg?raw=true)
 
 # Digital Image Processing Techniques
-The provided Python script performs weed isolation using a combination of image processing techniques. It processes a batch of Goosefoot weed images and removes background noise to create clean, black-background images suitable for dataset construction. The main steps include:
 
-Excess Green (ExG) Calculation to highlight vegetation.
+The provided Python notebook performs weed isolation using a series of image processing techniques. It processes a batch of Goosefoot weed images and removes background noise to generate clean, black-background images suitable for dataset construction.
 
-Binary Thresholding to separate plant from background.
+The main steps include:
 
-Small Object Removal to clean noise.
+- **Excess Green (ExG) Calculation** to highlight vegetation.
+- **Binary Thresholding** to separate plant from background.
+- **Small Object Removal** to eliminate noise.
+- **Green Segmentation in HSV Color Space** to preserve true plant areas.
+- **Output Generation** with visualizations of the isolated weed images.
 
-Green Segmentation in HSV Space to preserve true plant areas.
+[View image techniques.ipynb on GitHub](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb)=
 
-Output Generation of isolated weed images with visualization.
-📥 [Download image techniques.ipynb](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
-Note: To run the above code you need Python, OpenCv, Numpy and Matplotlib librarries installed. 
+**Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
+
 # Preprocessing Techinques on the Isolated weeds
 Once the weeds are isolated using ExG and Otsu's thresholding methods, you can centralize the weeds on images using the following code.  
 # Stable Diffusion 3.5 Model
