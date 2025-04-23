@@ -1,5 +1,10 @@
 # DIP-Project-Codes
-This repository contains the complete implementation of my Digital Image Processing course project, which focuses on constructing a Goosefoot weed https://foragingguru.com/goosefoot-plant/ detection dataset using advanced image processing techniques and synthetic data generation. It includes Jupyter notebooks, datasets, and output results. The project uses ExG and Otsu methods for weed isolation, trains a stable diffusion 3.5 model (https://github.com/Stability-AI/sd3.5) for generating synthetic weeds, segments soybean crops using the LeafOnlySAM model (https://github.com/Dom3442/leafonlysam), and overlays weed images onto realistic crop backgrounds to create agricultural scenes. The final dataset is used to train a YOLOv12 model (https://github.com/sunsmarterjie/yolov12) for Goosefoot detection
+This repository contains the complete implementation of my Digital Image Processing course project, which focuses on constructing a Goosefoot weed https://foragingguru.com/goosefoot-plant/ detection dataset using advanced image processing techniques and synthetic data generation. It includes Jupyter notebooks, datasets, and output results. The project uses ExG and Otsu methods for weed isolation, trains a stable diffusion 3.5 model (https://github.com/Stability-AI/sd3.5) for generating synthetic weeds, segments soybean crops using the LeafOnlySAM model (https://github.com/Dom3442/leafonlysam), and overlays weed images onto realistic crop backgrounds to create agricultural scenes. The final dataset is used to train a YOLOv12 model (https://github.com/sunsmarterjie/yolov12) for Goosefoot detection.
+# Workflow of the Project
+
+![DIP Flow Diagram](images/dip-flow.png)
+
+
 ## 🔄 Code Pipeline
 
 This project introduces a multi-phase methodology for building a dataset for Goosefoot weed detection in soybean fields, utilizing synthetic data generation and advanced image processing techniques:
