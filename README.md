@@ -69,7 +69,7 @@ pip install -e .```
 
 ### Validation
 
-```python
+```bash
 from ultralytics import YOLO
 
 model = YOLO('yolov12{n/s/m/l/x}.pt')
