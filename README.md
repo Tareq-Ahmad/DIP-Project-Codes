@@ -22,7 +22,7 @@ The main steps include:
 - **Green Segmentation in HSV Color Space** to preserve true plant areas.
 - **Output Generation** with visualizations of the isolated weed images.
 
-[View image techniques.ipynb on GitHub](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb)=
+📥 [Download `image techniques.ipynb`](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
 
 **Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
 
