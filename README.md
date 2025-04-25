@@ -88,7 +88,7 @@ When the model is trained, we can give the model some text prompt to generate sy
 
 Below is a simple Python script for compositing weed images onto soybean background images.
 
- [Download training_scenes.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes-1/releases/download/v2.0/training_scenes.py)
+ [Download training_scenes.py](Trainig_Scenes.ipynb)
 
 ### Training YOLOv12
 
