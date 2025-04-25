@@ -76,6 +76,8 @@ accelerate launch train_dreambooth_lora.py \
 ### Stable Diffusion Results After Training
 When the model is trained, we can give the model some text prompt to generate synthetic images. Below is one sample text prompt along with the generated image. 
 
+![Synthetic image by the Stabel Diffusion 3.5 model] (images/Picture4.png)
+
 
 
 ### Training Scenes
