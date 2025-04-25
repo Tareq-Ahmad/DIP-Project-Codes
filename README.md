@@ -8,7 +8,7 @@ This repository contains the complete implementation of our Digital Image Proces
 # Initial Dataset
 For this project 332 images of Goosefoot (chenopodium Album) weed were used from the GitHub repository: [zhangchuanyin/weed-datasets](https://github.com/zhangchuanyin/weed-datasets) as the primary source.
 # Sample Weed Image
-![Goosefoot Weed](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/goosefoot1.jpg?raw=true)
+![Goosefoot Weed](images/Goosfoot.jpg)
 
 # Digital Image Processing Techniques
 
