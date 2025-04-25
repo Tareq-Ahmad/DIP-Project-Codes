@@ -84,13 +84,11 @@ When the model is trained, we can give the model some text prompt to generate sy
 
 
 
-### Training Scenes
+### `Trainig_Scenes.ipynb`: Generate Synthetic Training Scenes
 
 Below is a simple Python script for compositing weed images onto soybean background images.
 
  [Download training_scenes.py](Trainig_Scenes.ipynb)
-
- ### `Trainig_Scenes.ipynb`: Generate Synthetic Training Scenes
 
 This notebook creates synthetic training images by randomly placing isolated **Goosefoot weed** images onto **soybean field backgrounds**, avoiding overlap with crop areas using **segmentation masks**. Each composite image is saved along with its bounding box annotations in COCO-style JSON format, useful for training object detection models like YOLO.
 
