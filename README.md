@@ -73,6 +73,10 @@ accelerate launch train_dreambooth_lora.py \
   --seed=42 \
   --report_to="tensorboard"
 ```
+### Stable Diffusion Results After Training
+When the model is trained, we can give the model some text prompt to generate synthetic images. Below is one sample text prompt along with the generated image. 
+
+
 
 ### Training Scenes
 
