@@ -76,7 +76,9 @@ accelerate launch train_dreambooth_lora.py \
 ### Stable Diffusion Results After Training
 When the model is trained, we can give the model some text prompt to generate synthetic images. Below is one sample text prompt along with the generated image. 
 
-Text Promt "A tiny Goosefoot weed with four fresh green leaves sprouting from slightly uneven, moist soil, positioned a few inches away from a smooth, weathered stone. The plant’s leaves have delicate, slightly serrated edges and catch the morning light, creating a soft glow on their surfaces. The nearby stone is rough and speckled with earthy tones, partially buried in the soil, and casting a subtle shadow. The surrounding soil is textured with small clumps of earth, a few scattered dry leaves, and tiny roots breaking through the surface"
+**Text Prompt**:  
+"A tiny Goosefoot weed with four fresh green leaves sprouting from slightly uneven, moist soil, positioned a few inches away from a smooth, weathered stone. The plant’s leaves have delicate, slightly serrated edges and catch the morning light, creating a soft glow on their surfaces. The nearby stone is rough and speckled with earthy tones, partially buried in the soil, and casting a subtle shadow. The surrounding soil is textured with small clumps of earth, a few scattered dry leaves, and tiny roots breaking through the surface"
+
 
 ![Synthetic image by the Stabel Diffusion 3.5 model](images/Picture4.png)
 
