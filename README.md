@@ -90,6 +90,22 @@ Below is a simple Python script for compositing weed images onto soybean backgro
 
  [Download training_scenes.py](Trainig_Scenes.ipynb)
 
+ ### `Trainig_Scenes.ipynb`: Generate Synthetic Training Scenes
+
+This notebook creates synthetic training images by randomly placing isolated **Goosefoot weed** images onto **soybean field backgrounds**, avoiding overlap with crop areas using **segmentation masks**. Each composite image is saved along with its bounding box annotations in COCO-style JSON format, useful for training object detection models like YOLO.
+
+#### Main Features
+- Random placement, scaling, flipping, and rotation of weed images
+- Collision avoidance using `LeafOnlySAM`-generated masks
+- Saves synthetic images and bounding boxes in JSON format
+
+#### Required Libraries
+Make sure to install the following Python packages before running the notebook:
+
+```bash
+pip install opencv-python numpy
+```
+
 ### Training YOLOv12
 
 For this project, we trained the state-of-the-art [YOLOv12](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/yolov12n.pt) model (Nano version) on the constructed dataset. The complete code from dataset split to training, testing, and model evaluation is documented in the [YOLO12_training.py](https://github.com/Tareq-Ahmad/DIP-Project-Codes/releases/download/v1.2/YOLO12_training.py) file available in the release section.
