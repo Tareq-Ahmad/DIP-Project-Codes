@@ -121,6 +121,7 @@ pip install -e .
 ```
 
 ### Training Configuration
+The model was trained using one INVIDIA RTX A6000 GPU with 49 GB of VRAM in a docker container with the following hyperparameters:  
 
 | **Hyperparameters**     | **Values**                                      |
 |-------------------------|--------------------------------------------------|
