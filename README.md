@@ -24,7 +24,7 @@ The main steps include:
 
  [Download `image techniques.ipynb`](https://github.com/Tareq-Ahmad/DIP-Project-Codes/blob/main/image%20techniques.ipynb?raw=true)
 
-**Note:** To run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
+**Note:** The above code can't be displayed on our GitHub Repository sine it's a very large file. Also, to run the code, you need Python installed with the following libraries: `OpenCV`, `NumPy`, and `Matplotlib`.
  
 ## Stable Diffusion 3.5 Medium – Model Access
 
